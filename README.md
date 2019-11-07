@@ -2,9 +2,9 @@
 
 Instructions and scripts for rendering point cloud figures shown in **PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows**.
 
-[PointFlow : 3D Point Cloud Generation with Continuous Normalizing Flows](https://arxiv.org/abs/1906.12320) [[Project Page]](https://github.com/stevenygd/PointFlow).
+[[Paper]](https://arxiv.org/abs/1906.12320) [[Project GitHub]](https://github.com/stevenygd/PointFlow).
 
-The scripts contained in this repository basically generates a XML file, which describes a 3D scene in the format used by Mitsuba. You will then be able to render it with Mitsuba.
+The script generates a XML file, which describes a 3D scene in the format used by Mitsuba. You will then be able to render it with Mitsuba.
 
 ## Dependencies
 * Python 3.6
@@ -15,7 +15,7 @@ The scripts contained in this repository basically generates a XML file, which d
 # Generate scene XML file
 python3.6 pointflow_fig_colorful.py
 
-# Render using mitsuba
+# Render using Mitsuba
 mitsuba mitsuba_scene.xml
 ```
 
