@@ -25,7 +25,7 @@ mitsuba mitsuba_scene.xml
 </p>
 
 ## Cite
-Please cite our work if you find it useful:
+Please consider citing our work if you find it useful:
 ```latex
 @article{pointflow,
  title={PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows},
